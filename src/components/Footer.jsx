@@ -6,23 +6,14 @@ export default function Footer() {
       <div className="wrap footer__inner">
         <div className="footer__brand">
           FAN<span className="grad-text">FEST</span> 2026
-          <p>August 14–16, 2026 · For creators, by creators.</p>
         </div>
+        <p className="footer__tagline">August 14–16, 2026 · For creators, by creators.</p>
 
-        <div className="footer__links">
-          <a href="#about">About</a>
-          <a href="#perks">Perks</a>
-          <a href="#apply">Apply</a>
-          <a href="#faq">FAQ</a>
-        </div>
-      </div>
-
-      <div className="wrap footer__bottom">
-        <span>© 2026 FanFest. All rights reserved.</span>
-        <div>
-          <a href="#">Privacy Policy</a>
+        <p className="footer__bottom">
+          © 2026 FanFest. All rights reserved. &nbsp;|&nbsp;
+          <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
           <a href="#">Contact Us</a>
-        </div>
+        </p>
       </div>
     </footer>
   );

@@ -32,10 +32,10 @@
 }
 
 .brand__year {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--gold);
-  background: rgba(255, 201, 61, 0.12);
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: white;
+
   padding: 3px 6px;
   border-radius: 6px;
   margin-left: 4px;

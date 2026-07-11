@@ -20,7 +20,7 @@
 }
 
 .perk__num {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 14px;
   color: var(--gold);
   flex-shrink: 0;

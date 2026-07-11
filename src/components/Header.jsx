@@ -23,7 +23,7 @@ export default function Header() {
       <div className="wrap site-header__inner">
         <a href="#top" className="brand">
           FAN<span className="grad-text">FEST</span>
-          <span className="brand__year">26</span>
+          <span className="brand__year">2026</span>
         </a>
 
         <nav className={`nav ${open ? "nav--open" : ""}`}>
