@@ -1,0 +1,44 @@
+.section--tinted {
+  background: linear-gradient(180deg, transparent, rgba(123, 92, 255, 0.05) 30%, transparent 90%);
+}
+
+.perks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.perk {
+  background: var(--surface);
+  padding: 32px 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.perk__num {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.perk h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.perk p {
+  color: var(--text-dim);
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+@media (max-width: 720px) {
+  .perks-grid {
+    grid-template-columns: 1fr;
+  }
+}

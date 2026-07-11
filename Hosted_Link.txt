@@ -1,0 +1,19 @@
+FanFest 2026 Clone — Hosted Link
+=================================
+
+PASTE YOUR LIVE DEPLOYMENT URL HERE ONCE DEPLOYED, e.g.:
+https://fanfest-2026-clone.vercel.app
+
+How to get this URL (2 minutes, no local setup needed):
+1. Create a new GitHub repo and push the contents of this project to it.
+2. Go to https://vercel.com/new and import that repo.
+   - Framework preset: Vite (auto-detected)
+   - Build command: npm run build (auto-filled)
+   - Output directory: dist (auto-filled)
+3. Click Deploy. Vercel will give you a public URL within ~60 seconds.
+4. Replace the line at the top of this file with that URL, then save it
+   as Hosted_Link.txt in your submission Google Drive folder.
+
+(Netlify works the same way via https://app.netlify.com — drag the
+built "dist" folder into https://app.netlify.com/drop for an instant
+URL with zero repo setup if you prefer that route.)
